@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* Fontes externas*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*Config Global*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+:root{
+    --font1: 'Passion One', cursive;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Arial', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+header{
+    background-color: black;
+    font-family: var(--font1);
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    
+    
+}
+header >p{
+    font-family: var(--font3);
+    font-weight: 10px;
+    padding-bottom: 50px;
+    
+}
+
+h1{
+    display: block;
+    font-family: var(--font1);
+    font-size: 4em;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+
+}
+
+p >a{
+    font-family: var(--font3);
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+p >a:hover{
+    text-decoration: underline;
+    color: white;
+    
+    
+}
+div >p{
+    font-family: var(--font2);
+    text-align: left;
+    line-height: 2em;
+    font-size: 2.5vw;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+div.estrofe{
+    background-color: white;
+    color: black;
+    
+   
+}
+
+div.imagem{
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.699);
+    background-attachment: fixed;
+    background-size: cover;
+}
+div >p.caixa{
+    display: inline-block;
+    text-shadow: 2px 2px black;
+    padding: 5px;  
+    color: white;
+    
+    background-color: rgba(184, 177, 177, 0.384);
+    margin: 30px;
+    
+}
+
+div#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    b
+}
+div#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font3);
+    padding: 10px;
+}
